@@ -118,8 +118,8 @@ window.addEventListener('scroll', scrollActive)
 
 const fname =document.getElementById("name");
 const email = document.getElementById("email");
-const message =document.getElementById("message")
-const subject = document.getElementById("subject")
+const message =document.getElementById("message");
+const subject = document.getElementById("subject");
 
 function sendEmail(){
   
