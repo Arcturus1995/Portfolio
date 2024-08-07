@@ -119,6 +119,7 @@ window.addEventListener('scroll', scrollActive)
 const fname =document.getElementById("name");
 const email = document.getElementById("email");
 const message =document.getElementById("message")
+const subject = document.getElementById("subject")
 
 function sendEmail(){
   
@@ -130,7 +131,7 @@ function sendEmail(){
     Password : "5DC9915788C119E0F4467F061A76323517D2",
     To : 'junjun00gabion@gmail.com',
     From : "junjun00gabion@gmail.com",
-    Subject : "New contact form enquiry",
+    Subject : subject.value,
     Body : bodyMessage
 }).then(
   message => alert(message)
