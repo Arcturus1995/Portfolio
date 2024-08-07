@@ -1,3 +1,18 @@
+VANTA.NET({
+  el: "body",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x0,
+  backgroundColor: 0xFFFFFF,
+  points: 14.00,
+  maxDistance: 10.00,
+  spacing: 11.00
+})
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
     var menuBtn = document.getElementById("myNavMenu");
@@ -137,18 +152,4 @@ function sendEmail(){
   message => alert(message)
 );
 }
-VANTA.NET({
-  el: "body",
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0x0,
-  backgroundColor: 0xFFFFFF,
-  points: 14.00,
-  maxDistance: 10.00,
-  spacing: 11.00
-})
+
